@@ -7,4 +7,7 @@ df = pd.DataFrame(mydataset)
 
 df["places"] = [5, 10, 20]
 df["add"] = df["places"] + df["ages"]
-print(df.to_string())
+print(df.loc[0])
+
+
+# print(df.loc[df["ages"] < 10])
